@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-jira_path = "" #Past the path between the quotes " "
+jira_path = "" #Paste the path between the quotes " "
 
 driver = webdriver.Chrome()
 driver.get(jira_path) # Opening a new chrome window
